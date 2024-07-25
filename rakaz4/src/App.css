@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.goals-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.goal-button {
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.goal-button.selected {
+  background-color: #a4c639;
+  color: white;
+}
+
+.goal-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.goal-button .remove {
+  margin-left: 10px;
+  color: red;
+}
+
+.next-button,
+.save-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-button:hover,
+.save-button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
